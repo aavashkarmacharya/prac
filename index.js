@@ -67,6 +67,7 @@ let typeno = ()=> console.log("OMG MIRACLEEE!!!");
  const divide = (a, b) => a/b;
   console.log(divide(100, 5));
 
+  console.log("hello");
 
 
 
