@@ -47,7 +47,7 @@ let z = (name) => {
     name = name?? r;
 console.log(name);
 }
-z("hariio");
+z();
 
 
 /*for( let details of user){
@@ -74,10 +74,8 @@ check1(details);
  let  updating = user.map(details => details.name + "_Thapa");
  console.log(updating);
 
-
-
-
+ let vips = user
+.filter(details=> details.age=== 18)
+.map(details => details.name + " you have been promoted to VIP");
+console.log(vips);
  
-
-
-
