@@ -55,8 +55,6 @@ for (i = 0; i < arr.length; i++) {
 }
 
 
-
-
 let user = { gen: "pilot", age: 11 };
 console.log(`Whats up bro u a ${user.gen} and your age is ${user.age}`);
 
@@ -74,6 +72,16 @@ console.log(divide(100, 5));
 console.log("hello bro");
 
 
+let fruits = ["Apple", "banana", "pineapple"];
+fruits.push("Pumpkin is not a fruittt");
+fruits.unshift("Pumpkin is probably a fruit");
+
+
+
+
+for(i=0; i<fruits.length; i++){
+console.log(fruits[i]);
+}
 
 
 
