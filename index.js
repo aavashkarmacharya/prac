@@ -43,7 +43,11 @@ console.log(add());
 let arr = [1, 2, 3, 4];
 let i = 0;
 arr.push(5);
+
 arr.unshift(0);
+arr.unshift(-1);
+arr.shift();
+
 console.log(arr.includes(3));
 
 for (i = 0; i < arr.length; i++) {
@@ -68,6 +72,7 @@ const divide = (a, b) => a / b;
 console.log(divide(100, 5));
 
 console.log("hello bro");
+
 
 
 
